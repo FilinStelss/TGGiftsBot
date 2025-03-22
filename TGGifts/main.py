@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 # Загружаем переменные окружения из .env
 load_dotenv()
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHANNEL_IDS = os.environ.get("TELEGRAM_CHANNEL_IDS")  # через запятую, если несколько
+TELEGRAM_BOT_TOKEN = '7247854140:AAEr-u2jkzj6SKOCyyr7lfydSKov1ljbYHI'
+TELEGRAM_CHANNEL_IDS = -1002269413608  # через запятую, если несколько
 
 GIFT_TYPES_FILE = "gift_types.json"
 LAST_MINTED_FILE = "last_minted.json"
